@@ -17,7 +17,7 @@ def rename_m3u8_to_ts(directory):
             print(f'Renamed: {filename} -> {new_filename}')
 
 # Get input from the user
-directory = input("Please enter the path that contains the .m3u8 files: ")
+directory = input("Please enter the path that contains the files: ")
 
 rename_m3u8_to_ts(directory)
 
